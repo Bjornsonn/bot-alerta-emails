@@ -3,7 +3,7 @@ name: Verificar Emails Concursos
 on:
   schedule:
     # Executa a cada 15 minutos (* / 15)
-    - cron: '*/15 * * * *'
+    - cron: '0 */6 * * * '
   # Permite que você execute manualmente pelo botão no GitHub quando quiser testar
   workflow_dispatch:
 
